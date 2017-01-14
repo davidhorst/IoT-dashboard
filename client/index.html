@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="angular-material/angular-material.css">
+
+    <title>Home Controller</title>
+  </head>
+  <body ng-app="app" ng-cloak>
+      
+      <div ng-view></div>
+
+  <!--Angular, etc /--> 
+  <script src="angular/angular.js" charset="utf-8"></script>
+  <script src="angular-route/angular-route.js" charset="utf-8"></script>
+  <script src="./../socket.io/socket.io.js"></script>
+  <script src="angular-aria/angular-aria.js"></script>
+  <script src="angular-animate/angular-animate.js"></script>
+  <script src="angular-material/angular-material.js"></script>
+  <!-- Local js stuff /-->
+  <script src="app.js" charset="utf-8"></script>
+  <script src="dashboard/dashboard-controller.js" charset="utf-8"></script>
+  <script src="dashboard/socket-service.js" charset="utf-8"></script>
+  </body>
+</html>
