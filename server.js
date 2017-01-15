@@ -46,6 +46,9 @@ var handleClient = function (socket) {
             }
         })
     })
+    socket.on('disconnect', function(){
+    console.log('Client removed: ', socket.id);
+  });
 };
 
 io.on('connection', handleClient);
