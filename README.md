@@ -18,14 +18,15 @@ node server
 
 ## Built With
 
-Frontside
-* [angular](http://www.dropwizard.io/1.0.2/docs/) - because two way data is fun
-* [angular-material](https://maven.apache.org/) - angular-material automatically renders changes when underlying data changes, which is pretty handy when dealing with a bunch of switches
+Client
+
+* [angular](https://angularjs.org/) - because two way data is fun
+* [angular-material](https://material.angularjs.org/latest/) - angular-material automatically renders changes when underlying data changes, which is pretty handy when dealing with a bunch of switches
 * [socket.io](http://socket.io/) - allows view to be kept accurate in real time when multiple users are activating the same nodes. 
 
-Backside
+Server
 * [express](http://expressjs.com/) - simple and small! 
-* [socket.io](http://socket.io/) -  
+* [socket.io](http://socket.io/)
 
 ## Authors
 
