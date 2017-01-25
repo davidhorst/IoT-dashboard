@@ -13,7 +13,7 @@
     <br>
     <md-content flex layout="row" layout-align="center center ">
         <span hide-xs flex="33"></span>
-        <div flex-gt-xs="33" flex-xs="75" flex-lg="20">
+        <div flex-xs="75" flex-gt-xs="33" flex-gt-md="20">
           <md-list-item ng-repeat="(key, value) in vm.switches">
             <p> {{ value.name }} </p>
             <md-switch ng-disabled="(!value.ip) ? true : false" class="md-secondary" ng-model="value.status" ng-change="vm.toggleSwitch(key)"></md-switch>
