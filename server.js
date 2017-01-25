@@ -1,7 +1,7 @@
 const express = require('express');
 const path    = require( 'path' );
 const root    = __dirname;
-const port    = 8000;
+const port    = 80;
 const app     = express();
 const http = require('http');
 var request = require('request');
@@ -10,7 +10,7 @@ const io = require("socket.io")(server);
 
 var switches = {
     switch1: {name: "NodeMCU", status: false, ip: '10.1.10.96'},
-    switch2: {name: "Living Room Lamp", status: false, ip: null},
+    switch2: {name: "Living Room Lamp", status: false, ip: '10.1.10.102'},
     switch3: {name: "Bedroom Lamp", status: false, ip: null}
 };
 
